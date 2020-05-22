@@ -1,0 +1,48 @@
+body{
+    background-color: #005883;
+    color: white;
+}
+nav,header,footer{
+    max-width: 99%;
+    margin: auto;
+}
+nav{
+    background-color: 0;
+    text-align: center;
+}
+header{
+    background-color:#005883;
+}
+footer{
+    background-color: darkslategray;
+    text-align: center;    
+}
+
+/* menu*/
+.menu li{
+    display: inline-block;
+}
+li a, boton{
+    display: inline-block;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.9em 1em;
+}
+.ListaDesplegable{
+    display: none;
+    background-color:darkslategray;
+    position: absolute ;
+}
+.ListaDesplegable a{
+    color: gainsboro;
+    display: block;
+    text-align: left;
+}
+.boton:hover .ListaDesplegable{
+    display: block;
+}
+li a:hover{
+    background: color 0;
+    
+}
